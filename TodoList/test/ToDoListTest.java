@@ -43,6 +43,7 @@ public class ToDoListTest {
 	public void testgetStatus() {
 		assertNotNull(todoList);
 		todoList.addTask(task1);
+		assertEquals(1, todoList.getAllTasks().size()); //Just for Takuya Test
 		assertEquals(false, todoList.getStatus(task1.getDescription()));
 		todoList.completeTask(task1.getDescription());
 		assertEquals(true, todoList.getStatus(task1.getDescription()));

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="osboxes" id="0" name="ToDoListTest" package="" skipped="0" tests="6" time="0.311" timestamp="2020-10-16T12:15:45">
+      <properties>
+          <property name="ant.library.dir" value="/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="java.specification.version" value="11" />
+
+          <property name="ant.project.name" value="TodoList" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="java.vendor.url" value="https://ubuntu.com/" />
+
+          <property name="env.SNAP_LIBRARY_PATH" value="/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junit/TEST-ToDoListTest.xml crashfile=/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junitvmwatcher9981451867061030316.properties propsfile=/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junit16983239284206726569.properties" />
+
+          <property name="env.SNAP_INSTANCE_NAME" value="eclipse" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.SSH_AGENT_PID" value="947" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.GIO_LAUNCHED_DESKTOP_FILE" value="/var/lib/snapd/desktop/applications/eclipse_eclipse.desktop" />
+
+          <property name="env.SNAP_ARCH" value="amd64" />
+
+          <property name="java.version.date" value="2020-07-14" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+
+          <property name="env.GDMSESSION" value="ubuntu" />
+
+          <property name="env.GDK_CORE_DEVICE_EVENTS" value="1" />
+
+          <property name="env.SNAP_INSTANCE_KEY" value="" />
+
+          <property name="basedir" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="ant.file.TodoList" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList/build.xml" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="env.MANAGERPID" value="675" />
+
+          <property name="env.SNAP_REAL_HOME" value="/home/epat" />
+
+          <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+
+          <property name="env.GJS_DEBUG_OUTPUT" value="stderr" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04" />
+
+          <property name="user.name" value="epat" />
+
+          <property name="env.PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+
+          <property name="env.SNAP_COOKIE" value="A3jSGQWNrFyU8RsKs-Tcwi5KSufkEckVMIHH1KxJUEHukhcnU6J_" />
+
+          <property name="env.LOGNAME" value="epat" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.CLUTTER_IM_MODULE" value="ibus" />
+
+          <property name="env._" value="/usr/bin/dbus-update-activation-environment" />
+
+          <property name="env.XDG_SESSION_DESKTOP" value="ubuntu" />
+
+          <property name="env.SHLVL" value="0" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="env.SNAP_REEXEC" value="" />
+
+          <property name="java.version" value="11.0.8" />
+
+          <property name="env.SSH_AUTH_SOCK" value="/run/user/1001/keyring/ssh" />
+
+          <property name="env.SNAP_USER_DATA" value="/home/epat/snap/eclipse/48" />
+
+          <property name="env.XDG_RUNTIME_DIR" value="/run/user/1001/snap.eclipse" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.XMODIFIERS" value="@im=ibus" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="ant.home" value="/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.SNAP_USER_COMMON" value="/home/epat/snap/eclipse/common" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="env.WINDOWPATH" value="2" />
+
+          <property name="java.vendor" value="Ubuntu" />
+
+          <property name="env.XDG_SESSION_TYPE" value="x11" />
+
+          <property name="env.IM_CONFIG_PHASE" value="1" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.XDG_SESSION_CLASS" value="user" />
+
+          <property name="env.XAUTHORITY" value="/run/user/1001/gdm/Xauthority" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="env.PWD" value="/home/epat" />
+
+          <property name="env.SESSION_MANAGER" value="local/osboxes:@/tmp/.ICE-unix/1052,unix/osboxes:/tmp/.ICE-unix/1052" />
+
+          <property name="env.LANG" value="en_US.UTF-8" />
+
+          <property name="env.OXYGEN_DISABLE_INNER_SHADOWS_HACK" value="1" />
+
+          <property name="env.SNAP_CONTEXT" value="A3jSGQWNrFyU8RsKs-Tcwi5KSufkEckVMIHH1KxJUEHukhcnU6J_" />
+
+          <property name="java.class.path" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList/bin:/snap/eclipse/48/plugins/org.junit_4.12.0.v201504281640/junit.jar:/snap/eclipse/48/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-launcher.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-junit.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-junit4.jar" />
+
+          <property name="env.HOME" value="/home/epat" />
+
+          <property name="source" value="1.8" />
+
+          <property name="env.QT_IM_MODULE" value="ibus" />
+
+          <property name="java.vm.vendor" value="Ubuntu" />
+
+          <property name="ant.file.type.TodoList" value="file" />
+
+          <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.vm.specification.version" value="11" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="env.DISPLAY" value=":0" />
+
+          <property name="env.SNAP_VERSION" value="2019-12" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="env.SNAP_REVISION" value="48" />
+
+          <property name="env.QT_ACCESSIBILITY" value="1" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="/home/epat" />
+
+          <property name="env.JOURNAL_STREAM" value="9:25608" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.GPG_AGENT_INFO" value="/run/user/1001/gnupg/S.gpg-agent:0:1" />
+
+          <property name="env.INVOCATION_ID" value="dfd6678b6a3d4b49b98d39a7ed1061ff" />
+
+          <property name="ant.java.version" value="11" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="env.GTK_IM_MODULE" value="ibus" />
+
+          <property name="env.ANT_HOME" value="/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324" />
+
+          <property name="env.XDG_MENU_PREFIX" value="gnome-" />
+
+          <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1001/bus" />
+
+          <property name="env.SNAP_COMMON" value="/var/snap/eclipse/common" />
+
+          <property name="ant.file" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList/build.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.4.0-48-generic" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="env.GIO_LAUNCHED_DESKTOP_FILE_PID" value="1890" />
+
+          <property name="env.GJS_DEBUG_TOPICS" value="JS ERROR;JS LOG" />
+
+          <property name="ant.project.invoked-targets" value="build" />
+
+          <property name="env.SNAP_NAME" value="eclipse" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="env.SHELL" value="/bin/bash" />
+
+          <property name="ant.core.lib" value="/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant.jar" />
+
+          <property name="env.GTK_MODULES" value="gail:atk-bridge" />
+
+          <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts" />
+
+          <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg" />
+
+          <property name="env.SNAP" value="/snap/eclipse/48" />
+
+          <property name="user.dir" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.USERNAME" value="epat" />
+
+          <property name="env.QT4_IM_MODULE" value="ibus" />
+
+          <property name="env.BAMF_DESKTOP_FILE_HINT" value="/var/lib/snapd/desktop/applications/eclipse_eclipse.desktop" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env.XDG_CURRENT_DESKTOP" value="ubuntu:GNOME" />
+
+          <property name="env.DESKTOP_SESSION" value="ubuntu" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04" />
+
+          <property name="env.LIBOVERLAY_SCROLLBAR" value="0" />
+
+          <property name="env.SNAP_DATA" value="/var/snap/eclipse/48" />
+
+          <property name="env.USER" value="epat" />
+
+          <property name="env.GNOME_SHELL_SESSION_MODE" value="ubuntu" />
+
+          <property name="java.class.version" value="55.0" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="ToDoListTest" name="testAddTask" time="0.01" />
+
+      <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.007" />
+
+      <testcase classname="ToDoListTest" name="testGetNumberofTask" time="0.001" />
+
+      <testcase classname="ToDoListTest" name="testgetStatus" time="0.0" />
+
+      <testcase classname="ToDoListTest" name="testRemoveTask" time="0.0" />
+
+      <testcase classname="ToDoListTest" name="testSetDate" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
