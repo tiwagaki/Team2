@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="osboxes" id="0" name="ToDoListTest" package="" skipped="0" tests="6" time="0.446" timestamp="2020-10-16T13:00:03">
+  <testsuite errors="0" failures="0" hostname="osboxes" id="0" name="ToDoListTest" package="" skipped="0" tests="6" time="0.343" timestamp="2020-10-16T13:35:38">
       <properties>
           <property name="ant.library.dir" value="/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib" />
 
@@ -24,7 +24,7 @@
 
           <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junit/TEST-ToDoListTest.xml crashfile=/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junitvmwatcher9891133041833833384.properties propsfile=/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junit18272930570133501249.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junit/TEST-ToDoListTest.xml crashfile=/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junitvmwatcher8562207872254860798.properties propsfile=/home/epat/Documents/git/todolistTeam2/Team2/TodoList/junit3684871635363099209.properties" />
 
           <property name="env.SNAP_INSTANCE_NAME" value="eclipse" />
 
@@ -148,7 +148,7 @@
 
           <property name="env.SNAP_CONTEXT" value="A3jSGQWNrFyU8RsKs-Tcwi5KSufkEckVMIHH1KxJUEHukhcnU6J_" />
 
-          <property name="java.class.path" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList/bin:/snap/eclipse/48/plugins/org.junit_4.12.0.v201504281640/junit.jar:/snap/eclipse/48/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-launcher.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-junit.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="/home/epat/Documents/git/todolistTeam2/Team2/TodoList/bin:/home/epat/Documents/git/todolistTeam2/Team2/TodoList/lib/junit-4.13.1.jar:/home/epat/Documents/git/todolistTeam2/Team2/TodoList/lib/hamcrest-core-1.3.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-launcher.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-junit.jar:/snap/eclipse/48/plugins/org.apache.ant_1.10.7.v20190926-0324/lib/ant-junit4.jar" />
 
           <property name="env.HOME" value="/home/epat" />
 
@@ -270,13 +270,13 @@
 
       </properties>
 
-      <testcase classname="ToDoListTest" name="testAddTask" time="0.006" />
+      <testcase classname="ToDoListTest" name="testAddTask" time="0.014" />
 
-      <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.001" />
+      <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.0" />
 
       <testcase classname="ToDoListTest" name="testGetNumberofTask" time="0.0" />
 
-      <testcase classname="ToDoListTest" name="testgetStatus" time="0.001" />
+      <testcase classname="ToDoListTest" name="testgetStatus" time="0.0" />
 
       <testcase classname="ToDoListTest" name="testRemoveTask" time="0.0" />
 
