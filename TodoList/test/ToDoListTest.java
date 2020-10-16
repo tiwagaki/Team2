@@ -65,4 +65,12 @@ public class ToDoListTest {
 		Collection<Task> tasks = todoList.getCompletedTasks();
 		assertEquals(2, tasks.size());
 	}
+	@Test
+	public void testGetNumberofTask() {
+		todoList.addTask(task1);
+		todoList.addTask(task2);
+		todoList.addTask(task3);
+		todoList.addTask(task4);
+		assertEquals(4,todoList.getNumberofTask());
+	}
 }
