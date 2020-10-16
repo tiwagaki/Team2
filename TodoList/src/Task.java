@@ -1,8 +1,9 @@
+import java.util.Date;
 
 public class Task {
 	private String description = null;
 	private boolean isComplete = false;
-	
+	private Date date = null;
 	
 	public Task(String description) {
 		super();
@@ -27,5 +28,10 @@ public class Task {
 	public void setComplete(boolean isComplete) {
 		this.isComplete = isComplete;
 	}
-
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	public Date getDate() {
+		return date;
+	}
 }

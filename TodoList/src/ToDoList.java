@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Date;
 
 public class ToDoList {
 
@@ -41,5 +42,11 @@ public class ToDoList {
 	}
 	public int getNumberofTask() {
 		return tasks.values().size();
+	}
+	public void setDate(String task,Date date) {
+		getTask(task).setDate(date);
+	}
+	public Date getDate(String task) {
+		return getTask(task).getDate();
 	}
 }

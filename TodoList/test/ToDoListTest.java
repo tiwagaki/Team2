@@ -1,8 +1,9 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-
+import java.util.Calendar;
 import java.util.Collection;
+import java.util.Date;
 
 public class ToDoListTest {
 	private Task task1;
@@ -72,5 +73,15 @@ public class ToDoListTest {
 		todoList.addTask(task3);
 		todoList.addTask(task4);
 		assertEquals(4,todoList.getNumberofTask());
+	}
+	@Test
+	public void testSetDate() {
+		todoList.addTask(task1);
+		todoList.addTask(task2);
+		todoList.addTask(task3);
+		Calendar c = Calendar.getInstance();
+        c.set(2020, 10, 16); 
+		todoList.setDate("desc 1", c.getTime());
+		assertEquals(todoList.getDate("desc 1"), c.getTime());
 	}
 }
