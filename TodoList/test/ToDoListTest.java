@@ -80,7 +80,6 @@ public class ToDoListTest {
 		todoList.addTask(task1);
 		todoList.addTask(task2);
 		todoList.addTask(task3);
-		todoList.addTask(task4);
 		Calendar c = Calendar.getInstance();
         c.set(2020, 10, 16); 
 		todoList.setDate("desc 1", c.getTime());
