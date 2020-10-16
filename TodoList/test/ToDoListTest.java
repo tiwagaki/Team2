@@ -8,6 +8,7 @@ public class ToDoListTest {
 	private Task task1;
 	private Task task2;
 	private Task task3;
+	private Task task4;
 	private ToDoList todoList;
 	
 	public ToDoListTest() {
@@ -18,7 +19,7 @@ public class ToDoListTest {
 		task1 = new Task ("desc 1");
 		task2 = new Task ("desc 2");
 		task3 = new Task ("desc 3");
-		
+		task4 = new Task ("desc 4");
 		todoList = new ToDoList();
 	}
 	@After
@@ -26,7 +27,7 @@ public class ToDoListTest {
 		task1 = null;
 		task2 = null;
 		task3 = null;
-		
+		task4 = null;
 		todoList = null;
 	}
 
@@ -50,7 +51,6 @@ public class ToDoListTest {
 		assertNotNull(todoList);
 		todoList.addTask(task1);
 		todoList.addTask(task2);;
-		
 		todoList.removeTask(task1.getDescription());
 		assertNull(todoList.getTask(task1.getDescription()));	
 	}
@@ -61,7 +61,7 @@ public class ToDoListTest {
 		todoList.addTask(task1);
 		todoList.addTask(task2);
 		todoList.addTask(task3);
-		
+		todoList.addTask(task4);
 		Collection<Task> tasks = todoList.getCompletedTasks();
 		assertEquals(2, tasks.size());
 	}
